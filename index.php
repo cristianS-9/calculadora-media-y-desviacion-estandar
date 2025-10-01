@@ -98,7 +98,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <div class="cards-container">
 
-            <div class="card" data-rotation-factor="2">
+            <div class="card card--results" data-rotation-factor="2">
                 <div class="card-content">
                     <h2>Ingresar números</h2>
                     <p>Agrega valores numéricos. Puedes eliminar uno a uno o reiniciar la lista.</p>
