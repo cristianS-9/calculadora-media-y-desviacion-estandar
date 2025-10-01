@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['agregar'])) {
         $raw = trim($_POST['numero'] ?? '');
         if ($raw === '') {
-            $error = "Ingresa un número.";
+            $error = "Debes ingresar por lo menos un número.";
         } elseif (!is_numeric($raw)) {
             $error = "El valor debe ser numérico.";
         } else {
